@@ -1,6 +1,10 @@
 class Cat
-  attr_accessor 
-  def instance(name)
-    
-  end
+    attr_accessor :name
+    def initialize(name)
+        @name = name
+    end
+
+    def meow
+        puts "meow!"
+    end
 end
